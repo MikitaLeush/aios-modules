@@ -1,0 +1,9 @@
+{
+  "port": 4322,
+  "machineName": "viero-demo",
+  "modules": {
+    "legacy": { "enabled": false },
+    "modes": { "enabled": true, "dryRun": true, "apps": {}, "modes": {} },
+    "viero": { "enabled": true, "key": "pause" }
+  }
+}

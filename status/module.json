@@ -1,0 +1,15 @@
+{
+  "id": "status",
+  "name": "Status",
+  "version": "0.1.0",
+  "core": 1,
+  "public": true,
+  "description": "What day it is, what's due, the weather and the calendar, at a glance; full screen at /status.",
+  "requires": ["tasks"],
+  "touches": ["reads tasks/tasks.md", "downloads the weather for your location (Open-Meteo)", "downloads your calendar from its secret iCal link"],
+  "server": "server.js",
+  "panel": "panel.js",
+  "commands": "commands.json",
+  "page": { "path": "/status", "file": "assets/fullscreen.html" },
+  "defaults": { "lat": null, "lon": null, "place": "", "icsUrl": "" }
+}

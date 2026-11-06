@@ -1,0 +1,7 @@
+[
+  { "id": "status.today", "patterns": ["show today"], "help": "Status: today view" },
+  { "id": "status.week", "patterns": ["show week", "show this week"], "help": "Status: week view" },
+  { "id": "status.due", "patterns": ["what's due", "what is due", "what's due today"], "help": "Say what's due" },
+  { "id": "status.weather", "patterns": ["weather", "what's the weather", "how is the weather"], "help": "Say the weather" },
+  { "id": "status.next", "patterns": ["what's next", "what is next", "next event"], "help": "Say the next calendar event" }
+]

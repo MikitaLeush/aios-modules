@@ -1,0 +1,14 @@
+{
+  "id": "tasks",
+  "name": "Tasks",
+  "version": "0.1.0",
+  "core": 1,
+  "public": true,
+  "description": "Your task list in tasks/tasks.md: add, tick off and archive from the panel, Ctrl+K or voice.",
+  "requires": [],
+  "touches": ["reads and writes tasks/tasks.md", "appends archived tasks to tasks/done.md"],
+  "enabledByDefault": true,
+  "server": "server.js",
+  "panel": "panel.js",
+  "commands": "commands.json"
+}

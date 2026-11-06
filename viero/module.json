@@ -1,0 +1,15 @@
+{
+  "id": "viero",
+  "name": "Viero",
+  "version": "0.1.0",
+  "core": 1,
+  "public": true,
+  "description": "Push-to-talk voice: hold a key anywhere in Windows, say a command (game mode, open music), let go.",
+  "requires": [],
+  "touches": ["listens to the microphone only while the push-to-talk key is held", "watches that one key system-wide", "runs the commands you say (the same ones as Ctrl+K)"],
+  "needs": ["python>=3.10"],
+  "server": "server.js",
+  "panel": "panel.js",
+  "overlay": "overlay.js",
+  "defaults": { "key": "", "model": "tiny.en" }
+}

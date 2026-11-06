@@ -1,0 +1,6 @@
+[
+  { "id": "modes.switch", "patterns": ["{mode} mode", "switch to {mode}", "switch to {mode} mode", "{mode} mode on"], "help": "Switch to a mode" },
+  { "id": "modes.open", "patterns": ["open {app}", "launch {app}", "start {app}"], "help": "Open an app" },
+  { "id": "modes.close", "patterns": ["close {app}", "quit {app}"], "help": "Close an app (never forced)" },
+  { "id": "modes.volume", "patterns": ["volume {n}", "volume to {n}", "set volume to {n}"], "help": "Set volume 0-100" }
+]

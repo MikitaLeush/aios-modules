@@ -1,0 +1,3 @@
+[
+  { "id": "terminal.claude", "patterns": ["ask claude {text}"], "help": "Ask Claude — the answer shows in the Terminal" }
+]

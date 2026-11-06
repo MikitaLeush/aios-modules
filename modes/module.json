@@ -1,0 +1,14 @@
+{
+  "id": "modes",
+  "name": "Modes",
+  "version": "0.1.0",
+  "core": 1,
+  "public": true,
+  "description": "Focus / game / relax: closes apps, sets audio, launches PowerToys Workspaces, opens apps.",
+  "requires": [],
+  "touches": ["launches apps", "closes apps (gracefully, never forced)", "changes audio output and volume"],
+  "server": "server.js",
+  "panel": "panel.js",
+  "commands": "commands.json",
+  "defaults": { "apps": {}, "modes": {}, "dryRun": false }
+}

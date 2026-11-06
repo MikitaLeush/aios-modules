@@ -1,0 +1,4 @@
+[
+  { "id": "tasks.add", "patterns": ["add task {text}", "new task {text}", "remind me to {text}"], "help": "Add a task" },
+  { "id": "tasks.archive", "patterns": ["archive done tasks", "archive tasks"], "help": "Move done tasks to tasks/done.md" }
+]

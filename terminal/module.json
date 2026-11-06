@@ -1,0 +1,15 @@
+{
+  "id": "terminal",
+  "name": "Terminal",
+  "version": "0.1.0",
+  "core": 1,
+  "public": true,
+  "description": "A shell rooted at the vault plus Claude Code in the same window; Claude is read-only outside projects/.",
+  "requires": [],
+  "touches": ["runs shell commands you type, in the vault folder", "runs Claude Code on this computer: it may read files and edit only inside projects/"],
+  "defaults": {},
+  "enabledByDefault": true,
+  "server": "server.js",
+  "panel": "panel.js",
+  "commands": "commands.json"
+}

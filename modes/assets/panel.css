@@ -1,0 +1,11 @@
+/* Modes panel — screen-only classes from shell/design/screens/modes.html, on theme tokens. */
+.modes-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.mode{position:relative;min-height:200px;border-radius:28px;border:1px solid var(--line);background:var(--surface);color:var(--text);font:inherit;text-align:left;padding:24px 26px;cursor:pointer;display:flex;flex-direction:column;justify-content:space-between;gap:16px;transition:background-color 220ms var(--ease-out),border-color 220ms var(--ease-out),box-shadow 220ms var(--ease-out),transform 140ms var(--ease-out)}
+.mode:hover{border-color:var(--line-strong)}
+.mode:active{transform:scale(.985)}
+.mode[aria-pressed="true"]{background:rgba(116,215,230,.09);border-color:rgba(116,215,230,.55);box-shadow:0 0 40px rgba(116,215,230,.14)}
+.mode[aria-busy="true"]{cursor:progress;opacity:.75}
+.modes-cols{display:grid;grid-template-columns:1.4fr 1fr;gap:20px;align-items:start}
+.step{display:grid;grid-template-columns:22px 1fr;gap:10px;padding:9px 0;border-top:1px solid var(--line);font-size:14px}
+.step:first-child{border-top:0}
+@media (prefers-reduced-motion: reduce){.mode{transition:none}}
